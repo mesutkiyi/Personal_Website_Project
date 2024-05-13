@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Giriş Ekranı</title>
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<header>
-			<nav>
+		<header class="header">
+			<nav class="navbar">
 				<a href="index.html">Ana Sayfa</a>
 				<a href="CV.html">Öz Geçmiş</a>
 				<a href="hometown.html">Şehrim</a>
@@ -19,6 +20,23 @@
 		<section>
             <div>
                 <h1>Giriş Sayfası</h1>
+                <div>
+                    <form method="post" action="control.php">
+                        <table>
+                            <tr>
+                                <td>Kullanıcı Adı:</td>
+                                <td><input type="text" name="kullaniciadi"></td>
+                            </tr>
+                            <tr>
+                                <td>Şifre:</td>
+                                <td><input type="password" name="sifre"></td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><input type="submit" name="gonder" class="btn"></th>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
             </div>
 		</section>
 	</body>
