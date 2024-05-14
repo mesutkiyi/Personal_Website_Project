@@ -9,9 +9,13 @@
 }
 html {
 	overflow-x: hidden;
+	font-size: 62.5%;
 }
 body {
 	background-color: #efefef;
+}
+section{
+	padding:3rem 5%;
 }
 .header .navbar{
 	background-color: #f1e7ed;
@@ -24,4 +28,90 @@ body {
 	height: 70px;
 	width: 80%;
 	position: relative;
+}
+.header .navbar a{
+	margin: 0 2rem;
+	font-size: 2rem;
+}
+.header .navbar a:hover {
+	text-decoration: underline;
+	color: red;
+}
+.header .navbar .active {
+	text-decoration: underline;
+	color: red;
+}
+/*--------------------------------------------------------------*/
+.intro {
+	min-height: 100vh;
+	margin-top:-11rem;
+	display:flex;
+	align-items:center;
+}
+.intro .content h1{
+	font-size:7.2rem;
+	color:#333333;
+	margin-top: -13%;
+}
+.intro .content p{
+	font-size:2.4rem;
+	color:#333333;
+	padding: 1rem 0;
+	max-width:60vw;
+}
+
+.cv {
+	min-height: 100vh;
+	margin-top: -11rem;
+	display: flex;
+	align-items: center;
+}
+.cv .content h1 {
+	font-size: 6rem;
+	color: #333333;
+	margin-top: -13%;
+}
+.cv .content p {
+	font-size: 2.4rem;
+	color: #333333;
+	padding: 1rem 0;
+	max-width: 50vw;
+}
+
+.city .content h1 {
+	font-size: 6rem;
+	color: #333333;
+}
+.city .content .tablo table{
+	font-size:3rem;
+	border:dotted;
+}
+.city .content h3 {
+	font-size: 4rem;
+	color: #333333;
+}
+.city .content p {
+	font-size: 2.4rem;
+	color: #333333;
+}
+
+.heritage {
+	min-height: 100vh;
+	margin-top: -11rem;
+	display: flex;
+	align-items: center;
+}
+.heritage .content h1 {
+	font-size: 6rem;
+	color: #333333;
+}
+.heritage .content h3 {
+	font-size: 3.6rem;
+	color: #333333;
+}
+.heritage .content p {
+	font-size: 2rem;
+	color: #333333;
+	padding: 1rem 0;
+	max-width: 70vw;
 }
