@@ -6,13 +6,12 @@
 	border: none;
 	text-decoration: none;
 	font-family: "Trykker", serif;
+	transition:0.4s ease;
+	background-color:#DFDEDC;
 }
 html {
 	overflow-x: hidden;
 	font-size: 62.5%;
-}
-body {
-	background-color: #efefef;
 }
 section{
 	padding:3rem 5%;
@@ -40,6 +39,68 @@ section{
 .header .navbar .active {
 	text-decoration: underline;
 	color: red;
+}
+
+.header .navigation{
+    width:100vw;
+    display:flex;
+    height:50px;
+}
+.header .navigation div{
+    float:left;
+    justify-content:space-between;
+    margin:20px 10px;
+    padding:20px 0;
+    padding-bottom:20px;
+    text-align:center;
+    background-color:#556677;
+    width:50px;
+    border-radius:40px;
+    color:#DFDEDC;
+}
+.fa-file-signature{
+    margin-left:7px;
+}
+.fa-graduation-cap{
+    margin-left:2px;
+}
+.header .navigation a {
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+}
+.header .navigation #symbol{
+    background-color:#556677;
+}
+.header .navigation .a{
+    margin-top:-160px;
+}
+.header .navigation .a:hover{
+    transform:translateY(115px);
+}
+.header .navigation .b{
+    margin-top:-124px;
+}
+.header .navigation .b:hover{
+    transform:translateY(79px);
+}
+.header .navigation .c{
+    margin-top:-220px;
+}
+.header .navigation .c:hover{
+    transform:translateY(175px);
+}
+.header .navigation .d{
+    margin-top:-134px;
+}
+.header .navigation .d:hover{
+    transform:translateY(89px);
+}
+.header .navigation .e{
+    margin-top:-146px;
+}
+.header .navigation .e:hover{
+    transform:translateY(101px);
 }
 /*--------------------------------------------------------------*/
 .intro {
