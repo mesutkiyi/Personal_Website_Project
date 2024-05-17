@@ -7,7 +7,7 @@
 	text-decoration: none;
 	font-family: "Trykker", serif;
 	transition:0.4s ease;
-	background-color:#DFDEDC;
+
 }
 html {
 	overflow-x: hidden;
@@ -15,6 +15,9 @@ html {
 }
 section{
 	padding:3rem 5%;
+}
+body{
+	background-color:#DFDEDC;	
 }
 .header .navbar{
 	background-color: #f1e7ed;
@@ -101,6 +104,23 @@ section{
 }
 .header .navigation .e:hover{
     transform:translateY(101px);
+}
+
+.footer{
+    width:100vw;
+    background-color:#556677;
+}
+.footer div{
+    background-color:#556677;
+    color:#DFDEDC;
+    height:10px;
+    padding-left:30px;
+    float:left;
+    margin:auto;    
+}
+.footer a{
+    background-color:#556677;
+    margin:auto;
 }
 /*--------------------------------------------------------------*/
 .intro {
