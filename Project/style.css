@@ -7,18 +7,26 @@
 	text-decoration: none;
 	font-family: "Trykker", serif;
 	transition:0.4s ease;
-
 }
 html {
 	overflow-x: hidden;
 	font-size: 62.5%;
+	height: 100%;
+	margin:0;
 }
 section{
 	padding:3rem 5%;
 }
 body{
-	background-color:#DFDEDC;	
+	background-color:#DFDEDC;
+	height:100%;
+	margin:0;
+	background-image: url(images/background.jpg);
+	background-size: auto;
+	background-repeat: repeat;
+	background-position: 50px 60px;
 }
+
 .header .navbar{
 	background-color: #f1e7ed;
 	display: flex;
@@ -124,26 +132,38 @@ body{
 }
 /*--------------------------------------------------------------*/
 .intro {
-	min-height: 100vh;
-	margin-top:-11rem;
 	display:flex;
 	align-items:center;
+	padding:50px;
+}
+.intro .content{
+	background-color:#EEEEEE;
+	opacity: 0.95;
+	border-radius: 23px;
+}
+.intro .content:hover{
+	opacity: 1;
 }
 .intro .content h1{
 	font-size:7.2rem;
 	color:#333333;
-	margin-top: -13%;
 }
 .intro .content p{
 	font-size:2.4rem;
 	color:#333333;
 	padding: 1rem 0;
-	max-width:60vw;
+}
+.intro .image{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro .image img{
+	border-radius: 25px;
 }
 
 .cv {
-	min-height: 100vh;
-	margin-top: -11rem;
+	margin-top: 100px;
 	display: flex;
 	align-items: center;
 }
@@ -234,8 +254,7 @@ body{
 }
 
 .heritage {
-	min-height: 100vh;
-	margin-top: -11rem;
+	margin-top: 100px;
 	display: flex;
 	align-items: center;
 }
