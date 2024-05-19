@@ -10,27 +10,43 @@
         <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<header class="header">
-			<nav class="navigation">
-				<a class="a" href="#"><div><br>A<br>n<br>a<br><br>S<br>a<br>y<br>f<br>a<br><br><i class="fa-solid fa-house-chimney fa-xl" id="symbol"></i></div></a>
-				<a class="a" href="cv.html"><div><br>Ö<br>z<br><br>G<br>e<br>ç<br>m<br>i<br>ş<br><br><i class="fa-solid fa-graduation-cap fa-xl" id="symbol"></i></div></a>
-				<a class="b" href="hometown.html"><div><br>Ş<br>e<br>h<br>r<br>i<br>m<br><br><i class="fa-solid fa-tree-city fa-xl" id="symbol"></i></div></a>
-				<a class="a" href="heritage.html"><div><br>M<br>i<br>r<br>a<br>s<br>ı<br>m<br>ı<br>z<br><br><i class="fa-solid fa-landmark fa-xl" id="symbol"></i></div></a>
-				<a class="c" href="hobbies.html"><div><br>İ<br>l<br>g<br>i<br><br>A<br>l<br>a<br>n<br>l<br>a<br>r<br>ı<br>m<br><br><i class="fa-solid fa-icons fa-xl" id="symbol"></i></div></a>
-				<a class="d" href="contact.html"><div><br>İ<br>l<br>e<br>t<br>ş<br>i<br>m<br><br><i class="fa-solid fa-file-signature fa-xl" id="symbol"></i></div></a>
-				<a class="b" href="login.html"><div><br>G<br>i<br>r<br>i<br>ş<br><br><br><i class="fa-solid fa-right-to-bracket fa-xl" id="symbol"></i></div></a>
-				<a class="e" href="#"><div><br><br><br><br><br><br><br><br><br><br><i class="fa-solid fa-bars fa-xl" id="symbol"></i></div></a>
+		<header class="head">
+			<nav class="navi">	
+				<ul class="liste">
+					<li><a href="#"><i class="fa-solid fa-house-chimney fa-xl" id="symbol"></i> Ana Sayfa</a></li>
+					<li><a href="CV.html"><i class="fa-solid fa-graduation-cap fa-xl" id="symbol"></i> Öz Geçmiş</a></li>
+					<li><a href="hometown.html"><i class="fa-solid fa-tree-city fa-xl" id="symbol"></i> Şehrim</a></li>
+					<li><a href="heritage.html"><i class="fa-solid fa-landmark fa-xl" id="symbol"></i> Mirasımız</a></li>
+					<li><a href="hobbies.html"><i class="fa-solid fa-icons fa-xl" id="symbol"></i> İlgi Alanlarım</a></li>
+					<li><a href="contact.html"><i class="fa-solid fa-file-signature fa-xl" id="symbol"></i> İletişim</a></li>
+					<li><a href="login.html"><i class="fa-solid fa-right-to-bracket fa-xl" id="symbol"></i> Giriş</a></li>
+				</ul>
+				<input type="checkbox" id="check">
+				<label for="check" class="check-button"><i class="fa-solid fa-bars fa-xl" id="symbol"></i></label>	
 			</nav>
 		</header>
-        <section class="container-fluid intro">
-            <div class="row">
+        <section class="container mt-4 intro">
+            <div class="row mb-4">
 				<div class="col-md-4 image">
 					<img src="images/vesikalik.jpg" alt="Temsili Resim">
 				</div>	
-				<div class="col-md-8 content">
+				<div class="col-md-8 p-3 content">
                 	<h1>Merhaba...</h1>
-                	<p> Ben Mesut. 20 yaşındayım. Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde okuyorum.<br>........</p>
-					<br><br><br><br><br><br><br><br><br><br>11234<br><br><br><br>
+                	<p id="giris"> Ben Mesut. 20 yaşındayım. Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde okuyorum. Bu sayfa, beni tanımanız için bir kapı aralıyor. Birçok farklı ilgi alanı ve tutkulara sahip biriyim ve bu sayfada kendimle ilgili biraz daha fazla bilgi paylaşmak istiyorum.</p>
+				</div>
+			</div>
+			<div class="row mb-4">
+				<div class="col-md-4 p-3 content">
+					<h3>Hobilerim</h3>
+					<p>Piyano çalmayı öğrenmek benim için gerçek bir tutku haline geldi. Her notanın altında yatan duyguyu ifade etmek ve melodilerle hikayeler anlatmak beni derinden etkiliyor. Özellikle hüzünlü ve derin melodilere ilgim büyük. Ayrıca, dizi izlemek ve kitap okumak da hayatımın vazgeçilmez bir parçası. Genellikle fantezi, mitoloji veya bilim kurgu eserlere yönelirim çünkü beni gerçek dünyanın dışına çıkarıp farklı bir evrene götürmelerini seviyorum. Hayatta kalma, açık dünya ve inşa etme türü oyunlar da benim için büyük bir keyif kaynağı. Bu oyunlar, yaratıcı düşünme becerilerimi geliştirmeme ve beni farklı senaryoların içine sokmama yardımcı oluyor.</p>
+				</div>
+				<div class="col-md-4 p-3 content">
+					<h3>Süper Güçler ve Bilim Kurgu</h3>
+					<p>Gerçek dünyanın sınırlarını zorlamak ve hayal gücünü serbest bırakmak benim için süper güçlerin fiziksel ve bilimsel temellere dayandığı hikayeler yazmak anlamına geliyor. Bu, hem benim için heyecan verici bir macera hem de okuyucular için ilgi çekici bir yolculuk olabilir. Süper güçlerin gerçekçi bir temele dayandığı bir hikaye, karakterlerin sıradan insanlar gibi zorluklarla mücadele etmesine ve güçlerini nasıl kullanacaklarını düşünmelerine olanak tanır. Ayrıca, bu tür hikayelerde bilim kurgu ve gerçeklik arasında ince bir denge kurarak okuyucuları hem düşündürür hem de eğlendirir. Başka bir dünya yaratma arzum, senaryo yazmaya olan tutkumu besliyor. Karakterlerin, süper güçlerini nasıl kullandıklarını ve bu güçlerin dünyalarında nasıl bir etki yarattığını düşünmek, benim için büyüleyici bir deneyim.</p>
+				</div>
+				<div class="col-md-4 p-3 content">
+					<h3>Diğer İlgi Alanlarım</h3>
+					<p>Puzzle yapmayı seviyorum, özellikle zorlu kısımlar bittiğinde hissettiğim başarı duygusunu. Ayrıca, bir gün kendi senaryomu yazmayı hedefliyorum. Bu senaryoda, bilim kurgu ve fantezi öğelerini harmanlayarak, okuyucuların hayal dünyasını genişletecek bir hikaye oluşturmayı planlıyorum. Hayalim, süper güçlerin ve bilim kurgunun birleştiği bir dünyada geçen, unutulmaz bir macera yaratmak.</p>
 				</div>
 			</div>
         </section>
